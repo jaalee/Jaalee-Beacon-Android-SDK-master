@@ -255,7 +255,7 @@ public class BeaconManager {
 
     /**
      * Starts ranging given range. Ranging results will be delivered to listener registered via setRangingListener(RangingListener). If given region is already ranged, this is no-op.
-     * It will also disvocer all the ble device around the phone.
+     * It will also discover all the ble device around the phone.
      *
      * @param region Region to range.
      * @throws RemoteException If communication with service failed.
